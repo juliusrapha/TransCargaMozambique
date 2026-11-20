@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='pt'>
+<head>
+<meta charset='UTF-8'>
+<title>Relatório TransCarga Moçambique</title>
+<style>
+body { font-family: 'Segoe UI', Arial, sans-serif; margin: 30px; color: #1F2D2A; }
+.header { border-bottom: 3px solid #00A85A; padding-bottom: 12px; margin-bottom: 20px; }
+.header h1 { margin: 0; color: #008A4A; font-size: 24px; }
+.header p { margin: 4px 0 0; color: #5E6F6A; font-size: 13px; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; font-size: 13px; }
+th { background-color: #00A85A; color: white; text-align: left; padding: 10px; }
+td { padding: 9px 10px; border-bottom: 1px solid #E6ECE9; }
+tr:nth-child(even) { background-color: #F8FAF9; }
+.totais { margin-top: 20px; text-align: right; font-size: 15px; font-weight: bold; color: #008A4A; }
+@media print { .no-print { display: none; } body { margin: 10mm; } }
+</style>
+</head>
+<body>
+<div class='header'>
+<h1>TransCarga Moçambique · Relatório Oficial</h1>
+<p>Gerado em: 20/11/2026 12:43:30 | Filtro: Histórico Geral de Carregamentos</p>
+</div>
+<table>
+<thead><tr>
+<th>Data</th><th>Veículo</th><th>Proprietário</th><th>Cliente</th><th>Origem</th><th>Destino</th><th>Qtd/Pass</th><th>Valor (MZN)</th>
+</tr></thead>
+<tbody>
+<tr><td>2026-11-12</td><td><strong>MNA-753-MP</strong></td><td>Transportes Maputo Lda</td><td>Farmacia IRIS</td><td>Cidade de Maputo</td><td>Estadio da Independencia</td><td>4,0</td><td>10000,00</td></tr>
+</tbody>
+</table>
+<div class='totais'>
+<p>Total de Serviços: 1 | Volume Total: 4,0 | Facturação Geral: 10000,00 MZN</p>
+</div>
+<script>window.onload = function() { /* pode imprimir direto com window.print() se desejar */ };</script>
+</body>
+</html>
